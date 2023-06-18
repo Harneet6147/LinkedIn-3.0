@@ -1,0 +1,36 @@
+.connectCard {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.connectCard img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.connectCard h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.connectCard p {
+    font-size: 24px;
+    margin: 10px auto;
+    max-width: 330px;
+    color: #fff;
+}
