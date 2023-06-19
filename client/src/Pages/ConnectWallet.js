@@ -122,8 +122,8 @@ export const Register = () => {
                     url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
                     data: formData,
                     headers: {
-                        pinata_api_key: `7afb3eb266ee84edd218`,
-                        pinata_secret_api_key: `59475ada91a984c279b3d88b6f3471949183ec75c118f0cac77e6bf8cfde5065`,
+                        pinata_api_key: `Your key`,
+                        pinata_secret_api_key: `Your key`,
                         "Content-Type": "multipart/form-data",
                     },
                 });
@@ -165,8 +165,8 @@ export const Register = () => {
                 url: "https://api.pinata.cloud/pinning/pinJSONToIPFS",
                 data: formData,
                 headers: {
-                    pinata_api_key: `7afb3eb266ee84edd218`,
-                    pinata_secret_api_key: `59475ada91a984c279b3d88b6f3471949183ec75c118f0cac77e6bf8cfde5065`,
+                    pinata_api_key: `Your key`,
+                    pinata_secret_api_key: `Your key`,
                     "Content-Type": "application/json",
                 },
             });
